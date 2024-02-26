@@ -1,0 +1,31 @@
+train:
+  per_device_train_batch_size: 4
+  per_device_eval_batch_size: 4
+  effective_batch_size: 256
+  training_steps: 1000000
+  seed: 42
+  lr: 0.02
+  lr_end: null
+  ratio_warmup: null
+  warmup_steps: 10000
+  label_smoothing: 0.0
+  logging_steps: 10
+  save_steps: 50
+  precision: "bf16"
+  scheduler: "t5"
+  optimizer: "adamw"
+
+model:
+  d_model: 768
+  d_state: 512
+  d_ff: 2048
+  local_radius: 127
+  num_heads: 12
+  num_ssm_heads: 1
+  num_layers: 12
+  dropout_rate: 0.0
+  max_length: 4096
+  use_fast_fft_conv: True
+
+data:
+  num_workers: 8

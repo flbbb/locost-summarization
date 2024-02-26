@@ -1,0 +1,11 @@
+datasets==2.11.0
+einops==0.6.1
+opt-einsum==3.3.0
+python-dotenv==1.0.0
+pytorch-lightning==2.0.2
+sentencepiece==0.1.99
+torch==2.0.1
+tqdm==4.65.0
+traitlets==5.9.0
+transformers==4.27.1
+wandb==0.15.12
