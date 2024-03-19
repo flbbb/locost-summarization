@@ -4,6 +4,8 @@ This repo contains the code used to pretrain and finetune LOCOST.
 
 The scripts about state-space models are adapted from the official [H3 repository](https://github.com/HazyResearch/H3).
 
+Pre-trained models are available on the [HuggingFace model hub](https://huggingface.co/flbbb/locost-gsg-pretrained).
+
 ## Setup
 Install both packages in the `csrc/` folder:
 ```bash
